@@ -9,5 +9,4 @@ import org.w3c.dom.Text
 class TodoListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var listPositionTextView = itemView.findViewById<TextView>(R.id.itemNumber)
     var listTitleTextView = itemView.findViewById<TextView>(R.id.itemString)
-
 }
